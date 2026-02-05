@@ -1,0 +1,353 @@
+Week 1
+H1 - Senin, 1 Juli 2024
+Overview pltu
+- dimuali dari bagian proses batubara, meliputi unloading batu bara dan loading batu bara,
+- melalui proses sortir sesuai nilai kalori batu bara, menggunakan sensor dht
+- coal handling direct unloading : langsung menuju silo
+- rendal operasi: sebagai proses perencanaan serta pengaturan stok
+
+Water System : Water Treatment Plant 
+- siklus uap dan air
+- siklus listrik 
+- siklus udara
+- sampling room
+
+Pemeliharaan: 
+1. Preventif: perawatan terjadwal untuk memperpanjang usia pakai alat
+2. Corective: perawatan yang dilakukan ketika terjadi suatu trouble pada instrumen
+
+Ruang DCS(Distributed Control System): mengendalikan distribusi data kontrol instrumen serta pengendalian proses secara terpadu juga realtime
+
+
+
+H2 - Selasa, 2 Juli 2024
+Overview Proses Bouiler
+- Sistem valve sebagai pengatur besaran steam
+- dalam valve terdapat instrument monitor posisi nilai katup valve menggunakan dg sensor lvdt (Linear Variable Displacement Transducers )
+- kontrol pada dcsc dalam bentuk sinyal digital akan dikonversi pada instrument valve secara electrohidrolic
+- msv, maiaan stop valve: sebagai kran utama uap kering sebelum masuk cv(control valve) 
+- cv, control valve: FA , PA (Admision pattern): control valve digunakan untuk mengatru besaran uap yang akan masuk ke turbin
+- terdapat bypass,. 
+
+PM (Pemeliharaan)
+- wo permit: sebagaisurat izin melakukan melakukan pemeliharaan sesuai  jadwal
+- dalam proses pm izin titipffff
+blower 
+primary air fan, membantu proses penggerusan, pembakaran
+
+idfan : bantu buanggas dariboiler
+
+
+Wtp (water treatment plant) 
+
+inject mulanya (klorit, tawas, kapur)
+
+gsf (grafity sand filtration)
+
+clearwell : turbidity <0.5 kekeruhannya
+
+kation, anion, 
+
+
+H3 - BOILER : (Rabu, 3 Juli 2024)
+- Overview Boiler
+- Inlet Vane Position: Aoma >> Motor Spd Cell
+- Coal : Mulanya dari tongkang >> mobilisasi dengan konvier >> masuk ke silo >> masuk ke feedder: mensuplai secada konsisten dan terukur  >> masuk ke mill (penggilingan) >>
+ Dynamic Clasifier : Penyortir ukuran batubara >> Boiler
+-  setiap 1 unit terdapat 5 silo dan 5 feeder, juga 5 mill
+-  proteksi mill berupa injerting steam ketika terjadi pembakaran
+-  Merid Order: pertimbangan efisiensi pembakaran
+-  Emisi:  co2, so2 dll
+-  Particular control : penyaringan prtikel debu
+-  Flow Gas Desulfurisation
+-  Air + Buhan kimia : pengikat Gas
+-  Gas buang dari stack sekitar 143°C
+-  Fixed Soot Boiler: Membersihkan pipa boiler
+-  Pada lantai atas : HPH & Deaerator
+PM Boiler:
+- Scanner Air Fan Delta
+- Impresed Filter : Filter udara untuk boiler, 
+- Preser Switch dan Impersial Presser Switch : monitor kualitas filter
+- nilai bp(perbedaan) : nilai input - nilai output >> pin N & O >> nilai maksimal 0.15
+- mengatur pembacaa sensor : presser kalibrator
+
+Presentasi Pak Abdullah:
+Lifecycle Failure and Maintenance
+    Bertujuan memperpanjang usia dan peforma optimal sehingga diperoleh profit yang besar
+    Profit : Revenue - Cost
+
+Pemeliharan termasuk cost
+Predictive & Preventive > Reactive(corrective) & proaktif
+1. Run to failure : sensor dan modul"
+2. Preventive Manintenance : 
+3. Corrective Maintenance : Biaya tinggi, resiko produksi tinggi, tidak terencana
+4. Predictive Maintenance : analisa
+5. Proaktif Maintenance : lingkup pm besar dan berupa proyek
+Manajemen Aset Sistem
+
+
+H4 Boiler : PM Boiler - Coal Feeder & Fixed Soot Blower (Kamis, 4 Juli 2024)
+- Coal Feeder: pengumpan batu bara dari silo ke mill
+- Ir Soot Blower: Sebagai pembersih boiler dari sisa pembakaran yang dapat mengurangi  peforma boiler
+- Fairing: Boiler dinyalakan dengan minyak (semacam solar) baru ketika sudah nyala akan di masukan batu bara dari mill
+
+Pagi hari kami datang lebih awal, ya ambil pengalaman terlambat 2 hari sebelumnya, lengkap dengan apd sesuai kriteria. di kantor, kami langsung masuk sebagian stafsudah datang, aku ke kamar mandi, meeting pagi sudah di mulai. pukul 10 mendekati 11 aku ber 5 baru ke lapangan, kali ini pembenahan kegagalan fungsi sootblower, cukup lama, kerja keras kolaborasi teknisi mekanik dengan tim control membuahkan hasil, sempat dicoba manual, menegangkan betul, ini saluran tersambung ke kobaran api batu bara pada burner, beberapa lama keluar uap panas, juga sesekali percikan api batu bara keluar, beruntung semua aman, pukul 12 an usai, langsung kami zuhur, setelahnya kekantin. ternyata makanan telah laris di beli para karyawan lain. alhasil kami nunggu nasi matang. 15 menit nasi dengan sayur mie goreng dan lauk terhidang, tak lama sudah tandas di perut masing". 
+siangnya kami di ajak ke wtp,  perbaikan pada instrumen control valve, pada kerusakan pada bagian komponen pneumatic
+
+H5 (Jumat, 5 Juli 2024)
+hari ini aku dan teman datang lebih awal, sekalipun jadwal senam tidak terlaksana, kami malah bisa lebih tenang sesampai di kantor. 
+
+seperti biasa pagi ada meeting rutin yang di pimpin oleh pak Abdullah selaku supervisor divisi control dan instrumen.
+selanjutnya kami di briefing oleh pak zainal untuk kembali mempelajari alur kerja boiler pada pltu,
+1. Tipe boiler berdasarkan tekanan steam yang dihasilkan pada up 12 yaitu TEKANAN TINGGI > 100 – 170 BAR (169 bar)
+2. Berdasarkan pressure furnace menggunakan BOILER NEGATIVE ( BLANCED DRAFT BOILER ) 
+Boiler dilihat dari Water And Steam System terdiri dari :
+1. Economizer : Merupakan alat yang berfungsi untuk pemanas air pengisi boiler mendekati temperatur titik didih memanfaatkan gas buang sisa pembakaran, sehingga ketika masuk ke 
+2. Steam drum. : Suatu tempat yang berfungsi untuk penampung air dan uap, memisahkan antara air dan uap basah, serta mendistribusikan air dan uap basah. menggunakan sirkulasi paksa, dimana rasio sirkulasi Mw/Ms, dengan bantuan pompa sirkulasi sehingga jumlah uap yang dihasilkan lebih banyak
+
+Steam drum kuwalitas air dijaga sesuai standart kimia :
+PH  =  9,2 s/d 9,6
+Conducivity  =  100 µs/cm²
+SiO2  =  250 PPB
+PO4  =  2 s/d 6 PPM
+Kuwalitas air dipertahankan dengan cara injeksi bahan kimia dan continous blowdon.
+Uap Kenyang (uap basah) : 
+Berhubungan dengan air mendidih, Suhu = titik didih, Tekanan = titik didih bersangkutan, Punya pasangan harga P dan T, Didinginkan mengembun jadi air, Jika diekspansikan akan mengembun. 
+3. Evaporator (water woll) dan Riser (pipa penguap). : 
+4.  Downcomer dan Boiler Water Circulating Pump.
+5.  Superheater dan Reheate
+
+
+- pm will
+- pm bms flame scanner
+- 
+
+
+Week 2 (su)
+
+Senin, 8 Juli 2024
+Pak Rivai: Ash Handling
+- Tujuan mekanisme ini adalah untuk memproses limbah-limbah batubara sisa pembakarn sehingga mengurangi kerusakan lingkungan yang ditimbulkan.
+- Di PLTU NP Paiton unit 1&2 terdapat 2 prosedur ash handling, yakni bottom ash dan fly ash.
+- Sebelumya kita pahami bahwa batu bara yang di bakar pada boiler telah melewati coal feeder untuk mengatur dan memantau debit serta kualitas, lalu masuk ke mill untuk menghancurkan menjadi ukuran 200 mesh. Bengan bantuan 
+- Bottom ash merupakan abu yang memiliki masa lebih besar, sehingga bisa di tangkap dengan bantuan grafitasi, terletak di economizer hopper. 
+- Setelah dari economizer hopper, melalui hopper SAH(Secondary Air Heater/ PAH(Primary Air Heater), ash akan di vacum menuju fly ash silo.
+- Selanjutnya asap melalui Elektrostatic Precipitator, namun sebelum masuk asap di aliri tegangan positif, sehingga ketika masuk Elektrostatic Precipitator ash akan menempel pada 16 elektroda(lempeng besi) bermuatan negatif. secara berkala elektroda akan digetarkan dan aliran di putus sehingga ash akan jatuh, selanjutnya akan di vakum menuju primary separator(bantuan gravitasi dan secondary separator(menggunakan filter dan semburan udara). Ash akan di teruskan menuju Fly Ash Silo
+- Bottom Ash Silo merupakan
+- Fly Ash Silo merupakan
+
+Pagi ini kami bersama Pak Rivai belajar mengenai Ash Handling, benar, pengelolaan abu sisa pembakaran di furnace boiler. Ash terdiri dari bottom ash (abu yang langsung jatuh menuju bottom ash hopper) dan fly ash (abu terbang pada asap). Pada bottom ash, dari bottom ash hopper lalu menuju submerged scraper conveyor, dry bottom ash system, conveyor, dan ash silo. Serupa, untuk fly ash ditangkap di ESP/PAH hopper dan electrostatic precipitator, serta menuju fly ash silo. Terakhir, ash diangkut menuju ash disposal.
+
+note: 
+- pada pabrik besar(gula dll) umumnya memiliki pembangkit listrik mandiri untuk operasional, selain itu beberapa sistem operasi bisa dimanfaatkan untuk mekanisme, seperti steam yang digunakan untuk menggerakan konveor atau hal lain semcamnya. 
+- pembangkit mandiri pada pabrik dipilih karena memiliki biaya operasional yang lebih rendah bila dibandingkan dengan membeli listrik dari pln.
+
+Pak Wide: Boiler
+Siangnya kami belajar bersama Pak Wide di area boiler, mulai dari bagaimana batu bara masuk menuju silo (penampungan), diumpan oleh coal feeder, lalu dihaluskan oleh mill, hingga dibakar. Pada uap, bagaimana proses air yang sudah dihilangkan kandungan mineralnya dipanaskan melalui LPH 1-3, lalu dihilangkan gasnya di deaerator, kemudian dipanaskan kembali di HPH 5-7, lalu masuk ke economizer, menuju steam drum, dipisahkan air dan uap, lalu uap dipanaskan lagi di super heater dengan suhu sekitar 540 derajat Celsius, hingga menggerakkan turbin uap. Di samping itu, bagaimana siklus boiler menjaga efektivitas dan efisiensi sehingga uap bekas menggerakkan turbin diolah kembali di area boiler.
+
+Perjalanan selanjutnya ada di laman youtube kawan, hii'malam
+
+Senin 8 juli 2024
+- Mempelajari alur kerja Ash Handling 
+- Meninjau komponen" kontrol pada ash handling
+- Meninjau komponen kontrol pada sistem kerja boiler 
+
+
+Selasa, 9 Juli 2024
+- fluid coupling: sebagai sistem proteksi motor penggerak crusher , ketika panas atau beban berlebih, dengan bantuan cairan untuk memisahkan dua bidang penggerak
+- proximity switch: mendeteksi putaran, ketika grinder tidak berputar, motor akan dimatikan
+- PM 28D CONTROL GRINDER SSC
+ PEMERIKSAAN :
+   - CEK PROXIMITY SWITCH NO MOTION
+   - CEK RELAY
+
+romberd: pro
+mendeteksi kecepatan: apabila tail putus motor berhenti,
+belt slip dan konveyor putus
+
+beban berat: mekanis, fluid coupling ngeplos, secara electrik proteksi over current motor
+
+- Memahami teori mekanisme kerja crusher grinder, fluid coupling, proximity switch, ssc (submerged scrapper conveyor) pada coal handling di proses ship unloader
+- Corrective Maintenance Ship Unloader, troubleshoot motor driver gantry whells, serta mengamati komponen kontrol instrumen pada ship unloader 
+- PM Instrumen Kontrol Turbin, overview keseluruhan bagian dan mekanisme kerja
+
+
+H8 Rabu, 10 Juli 2024
+- Grinder Crusher untuk bottom ash sebelum masuk konveyor, selain 
+- Coal di campur serbuk kayu(sawdust) untukksf bahan bakar pembangkit, dengan perbandingan 20:80(1:10 doser). Bisa dengan serbuk lain alami. di NP sudah jalan sekitar 4 tahun.
+- Kini ada troubel di batu bara, hasil pembakaran memiliki kandungan sulfur tinggi, sehingga pipa boiler memiliki jelaga tebal, lunak meleleh, turun ke ssc(Submerged Scraper Conveyor ) dan menggumpal serta keras, 
+- Swasta yang punya aset beberapa orang atau pt, di operasikan pihak lain, dengan maintenance berupa asuransi, sehingga pengelola perbulan membayar ke asuransi, sehingga ketika ada troubel langsung minta di solve oleh asuransi. lain hal dengan pln, ketika ada pengajuan butuh bertahun" atau sekitar 4 tahun untuk di setujui. ada audit. 
+- Besar tegangan dari generator di NP sebesar 150 KV sebelum di step up
+- Unit 3 terbaru 2011,
+- Unit 1 pembangunan 1,  dom batu bara di unit 9 dibangun atas sebab keluhan masyarakat.
+- Problem Solving trouble : dianalisa, dikaji, dicarikan solusi terbaru.  
+- Jenis start up(cold, warm, hot, dan very hot) 
+
+pembongkaran, penataan, pengisian,
+dari su, ke stockpile 1 2, low range, medium range, 
+1. ship unloader memindahkan coal dari tongkang/feshel menuju konveyor, melewati magnetic separation, menuju stockpile. ada 2 stockpile di np paiton dengan spesifikasi coal yang berbeda.
+2. pada stockpile coal akan di tata dan di campur dengan sawdust, dawdust adalah serbuk gergaji lembut dari kayu, limbah industri kayu serkel
+3. coal kombinasi akan di loading menuju coal silo, tahapnya di stockpile coal di  doser menuju Reclaimer Hopperuntuk di alirkan menuju konveyor naik ke transfer house, dari transfer house akan di masukan ke coal silo
+
+- Mempelajari mekanisme coal handling 
+- Mempelajari Campuran bahan bakar batu bara berupa sawdust
+- Mempelajari troubleshooting pada PLTU
+- Ke Ruangan kontrol Coal Handling dan belajar mekanisme coal handling(unloading, penataan dan loading)
+
+H9 Kamis, 11 Juli 2024
+Meeting Pagi:
+- Review recheck progres wo hari sebelumnya
+- Main ke konveyor, mengamati mekanisme kerja, komponen kontrol instrumen dan komponen proteksi
+- Main ke transfer house mengamati proses separation
+
+
+H10 Jumat, 12 Juli 2025
+- fluidizing blower alat udara panas ke silo
+Pengadaan:
+1. Konin dan rendal bahas rab
+2. Cek kontainer,
+3. pengajuan ke divisi pengadaan
+4. divisi pengadaan open lelang,
+5. vendor yang mengajukan di konfirmasi kecocokan ke konin,
+6. rendal acc ke pengadaan
+7. div pengadaan beli
+8. karantina dan cek kelayakan
+9. operasi masa garansi dan menunggu pencairan pembayaran
+
+jurnal:
+- Senam pagi di halaman pt pln np up paiton 1&2 
+- Briefing dengan pembimbing lapangan pak zainal asikin
+- PM ke ash handling: CM penggantian perangkat fluidizing blower fly ash silo
+
+
+kp 11
+- diferensial water preser: aliran
+- kation, dekarbpnator anion, mixbed, gsf, demin storage tank
+- cwp : colling condensor
+- ccwp: colling ccw
+- sensor vibrasi, temperatur, arus motor : untuk proteksi
+- 3 cwp/acwp pararel, bukaan valve mknimal 25%
+- bfp boiler feed pump
+- termokopel : rtd : membaca resistansi1
+- ovation: ovation high way
+- pm modul
+- p aux back plant
+- secondary main control
+- sec aux controler
+
+PM Water Treatment Plant (WTP) : diferensial water preser
+PM DCS (Distributed Control System)
+
+KP 12:
+- Diferensial level
+- inlet, clorine, skrining, cwp
+- skrining , 2 pompa, 1rolerfilter 1spray,, 3 unit skringkng skema pararel
+- di pompa ada 2 pressure switch
+- kajian kelayakan financial dan operasional
+- load set poin,diterjemahkan ke turbin master fan boiler master
+Kegiatan:
+- PM ada 2 pressure switch bagian skrining Inlet CWP dan ACWP
+- Belajar overview kajian kelayakan financial dan operasional pada UP 12 Paiton
+- Belajar overview mekanisme boiler, turbun dan chcb ketika naik turun beban listrik 
+
+KP 13 Rabu, 17 Juli 2024
+WTP: 
+- Netralizer Tank : Sensor Ph dan sensor flow(untuk laporan jumlah limbah ke klhk)
+- KOndensor, LPH123, deaerator, hph 567, economizer, steam drum, super heater, hp turbin
+- Sistem proteksi 2/3 
+- Bearing temperature
+- termodinamika
+- DCA Determine coller aproach
+- issue wtp: katodik flow meter bermasalah
+- S1: kuasai manual book, tahu sistem, tahu proses
+
+Kegiatan:
+- PM Water Treatment Plant (WTP) : Sensor PH dan sensor flow meter pada Netralizer tank
+- Belajar DCS : Memahami alir sistem dan proses turbin uap UP Paiton
+
+
+H14 | Kamis, 18 Juli 2024
+- pendingin rotor berupa hidrogen
+- scwt,
+- termokopel pemantau suhu perangkat
+- tepat guna, perawatan, dan murah
+- pm cooler stator generator: dengan ccw, air demin
+
+pm: 
+aktuator : normal dan emergency 
+equipment: running dan cadangan
+
+sistem bias,
+buat llkal dulu, sizing, spek, 
+lapor ke supervisor,
+ke rendal,, dk sana buat akusisi permkntaan barang, 
+ke pengadaan, dibelikan, 
+masuk gudang, dk ambil supr visor, di pasang ke lokal,
+dari lokal
+pola pikir wirausaha
+bisnis keluarga, bisa bertahan lama
+Kegiatan:
+- Penjelasan sistem pendinginan pada generator, tepatnya stator, atau bagian yang diam, menggunakan air demineral.
+- PM cooler perangkat kontrol pada coller stator generator
+- Penjelasan mekanisme transmisi instrumen ke controler sehingga bisa di deklarasikan pada human machine interface
+- Penjelasan cooler hidrogen pada generator, tepatnya rotor, 
+
+
+H15 KP, Jumat 19 Juli 2024
+Presentasi: 
+pendahuluan
+definisi pltu: pembangkit listrik yang menggunakan uap untuk menggerakkan turbin dengan generator,,
+turbin uap: batu bara, sawdust, nuklir, minyak, 
+pentingnya pemantauan emisi:
+- kepatuhan terhadap regulasi lingkungan 
+- mengurangi dampak lingkungan: kesehatan seperti ispa dll
+
+definisi CEMS: sistem yang mengukur dan mencatat emisi gas buang dari cerobong secara kontinu
+komponen utama cems: unit pengambilan sampel, sensor gas, analizer, sistem data logger
+sensor: gas, flow, particular, merkuri
+Hawa Datalogger: software monitoring emisi ke klhk.
+
+unit pengambilan sampel: 
+sensor gas: so2 nox co co2
+analizer:  menganalsia gas buang untuk menentukan komposisi dan konsentrasi
+sistem data logger
+note: multigas, oxygen, flow velocity
+
+Proses kerja CEMS
+data di kirim ke SISPEK di kantor klhk
+sektor: besi, baja, pulp, kertas rayon, carbon black, migas, pertambangan, pengolahan sampah secara termal, semen, pembangkit listrik tenaga termal, pupuk dan amonium nitrat
+ini berguna untuk data pemantauan yang sewaktu-watktu bisa di buktikan
+regulasi: permen klhk no P.15
+
+ip: 10.7.13.225:3000/cems/sync.log
+
+tantangan: kalibrasi dan pemeliharaan sistem, dst
+
+- Mempelajari Detail mekanisme pneumatic valve (PIC, PT, AI/AO, Positioner)
+- Corrective Maintenance(CM) Aktuator Valve spray HP Bypass (Isolation valve)
+- Mempelajari opsi topik untuk bahasan laporan KP
+
+
+WEEK 4
+SENIN, 22 JULI 2024
+- PM instrumen indikator tekananan udara pada coal feeder dan coal mill, tepatnya bagian know coal dan differensial bowl.
+- PM instrumen indikator Screw Air Compressor (SAC).
+- Mengunjungi Maintenance Outage (MO) bagian boiler, tepatnya pada hopper dan Submerged Scraper Conveyor (SSC)
+
+Narasi: 
+Hari ke 16 Kerja Praktek (KP) PT PLN NP UP Paiton, minggu ini kami belajar bareng mba dilla dan mas wedi di bagian boiler, hari ini kami pemeliharaan di bagian coal mill, tepatnya bagian indikator know coal dan bowl. kedua bagian ini akan mengatur proses penggilingan batu bara pada mill, baru setelah itu akan dibakar di furnance boiler. tepatnya indikator know coal memberitahukan kondisi ada atau tidak ada batu bara yang akan di umpan ke mill, sedangkan bowl pressur diffferensial memberitahukan kondisi tekanan udara yang ada di dalam mill, udara ini berfungsi membantu proses penghalusan batu bara di mill, barulah sebuk batubara di dorong melalui udara dari pa fan menuju furnance boiler.
+selanjutnya kami di ajak mengecek kondisi sac, nah sac ini berguna untuk mensuplai pasokan kompresi udara yang di distribusikan untuk menggerakan pneumatic valve.
+terakhir, kami ke boiler, mengintip kondisi bouler yang sedan mo, ada trouble di bagian ssc, dimana bottom ash yang harusnya jatuh  menjadi leleh dan padat menutupi saluran ssc, akhirnya seminggu ini unit 1 di shutdown. beginilah penampakan di ssc, terlihat ada 4 corner dengan 5 elevasi bahan bakar, yakni batu bara dan minyak untuk pembakaran awal. 
+di atas terlihat ada chub superheater dan reheater , dan economizer,, dulu aku kira boiler seperti panci di kompor, rupanya bentuknya lekuk" an pipa yang banyak, ini berguna untuk efektifitas dan efisiensi pemanasan.
+
+H17 KP
+SELASA, 23 JULI 2024
+- Belajar konfigurasi differential pressure transmitter smart possitioner
+Differential Pressure Transmitter dan Smart Positioner adalah dua komponen penting dalam sistem kontrol valve, terutama dalam aplikasi seperti pengendalian aliran udara di coal feeder dan coal mill di pembangkit listrik tenaga uap (PLTU). Berikut adalah penjelasan tentang fungsi dan mekanisme kerja masing-masing komponen serta bagaimana mereka berinteraksi untuk mengatur valve:
+
+Differential Pressure Transmitter
+Fungsi:
+
+-Pengukuran: Mengukur perbedaan tekanan antara dua titik dalam sistem, yang bisa digunakan untuk menentukan aliran atau tingkat suatu cairan atau gas.
+Kontrol: Data dari differential pressure transmitter digunakan untuk mengontrol berbagai proses, seperti aliran udara atau bahan bakar, dengan memberikan informasi yang akurat ke sistem kontrol.
+
