@@ -1,0 +1,722 @@
+H18 Rabu 24 JULI 2024
+
+- PM control indicator instrumen fd fan, id fan, pa fan
+
+- PM INDUCED DRAF
+
+T FAN
+
+- PM CONTROL INDUCED DRAFT FAN
+
+- PM CONTROL PRI
+
+MARY AIR FAN
+
+
+
+H19 KAMIS 25 JULI 2024
+
+- Belajar mengenai elektron, analogi beda potensial dan arus serta hambatan pada listrik
+
+- PM CONTROL O2 ANALYZER pada SAH/PAH : memastikan efisiensi proses pembakaran di boiler pada sebuah unit pltu, aturan regulasinya adalah, di boiler oksigen max 2% dan di stack max 7%
+
+- PM CONTROL STACK FLUE GAS MONITORING
+
+
+
+note:
+
+Membahas listrik, listrik sebenarnya berupa aliran elektron, dimana arus 1 ampere yang bergerak melewati titik tertentu selama satu detik — sekitar 6,241509 × 10pangkat18 elektron.
+
+Apabila di analogikan dengn air, air mengalir karena beda tekanan, dimana tekanan, tekanan air di hulu sungai lebih besar dibandingkan tekanan air di hilir. pada listrik, listrik mengalir karena adanya beda potensial, 
+
+
+
+
+
+H20 JUMAT 26 JULI 2024
+
+- Wiring ultrasonic flow meter sensor pada wtp pembuangn limbah
+
+- PM PLC lOGIC proteksi konveyor batubara
+
+
+
+
+
+WEEK 5
+
+H21 SENIN 29 JULI 2024
+
+- Penggantian presure gauge pada air hidran spray konveyor
+
+- Pembersihan Panel Control Gantry Coal Ship Unloader
+
+- Memperbaiki joystick pada kabin ship unloader
+
+
+
+H22 SELASA 30 JULI 2024
+
+- Audience final project presentasi Riyad 
+
+- Penambahan proteksi fluidizing blower: fluidizing trip signal
+
+- Belajar Wtp: clorine generator
+
+
+
+H23 RABU 31 JULI 2024
+
+- PM Ash Handling: Bottomm ash, panel" ssc 
+
+- Mengganti parker
+
+
+
+
+
+H24 KAMIS 1 AGUSTUS 2024
+
+- Belajar Mekanisme siklus operasi pada Ash Handling (bottom ash & fly ash)
+
+
+
+- Pada Ash Handling terdapat Bottom ash (ba) dan fly ash (fa)
+
+- Ba merupakan abu jatuh dari sisa pembakaran, baik langsung atau jelaga yang jatuh karena soot blower, masuk ke bottom ash hopper, lalu di semprot dengan air service agar mengalir menuju ssc(submerged scrapper conveyor).   ba di bawa ke diverter gate untuk (by pas, grinder(dengan grid) dan masuk ke konveyot, lalu ke ba silo, melalui transfert chute.
+
+- Ba juga berasal dari economizer hopper, dari hoper ada heater dan vibrator, di bawahnya ada eco storage tank, ada slide gate dan eco air lock, eco air blower dan line presure akan bekerja secara sinkron untuk mendorong ba menuju fly ba silo
+
+- ba juga berasal dari uncrushed coal dari mill. akan di bongkar manual dan di angkung menggunakan konveyor ke ba silo
+
+- 
+
+- Fly Ash: abu terbang sisa pembakaran
+
+- ada 1 hoper dari 2 yang beroperasi pada pln np up paiton, pertama di sah/pah hopper, dan di esp hopper.
+
+- esp hoper memiliki mekanisme menangkap debu dengan medan listrik, abu yang ikut pada udara akan melewati listirk bermuatan positif, sehingga debu ikut bermuatan positif, lalu mengalir ke esp dengan banyak lempengan bermuatan negatif, debu akan menempel pada lempeng", secara berkala ada ripper yang mengetuk lempeng untuk jatuh ke esp hopper, di esp hopper ada heater dan vibrator, di bawah esp hoper ada ash intage valve ke saluran vacum, denga bantuan breakage valve tekanan vacum bisa terjaga dari kejenuhan, secara bergantian di setiap hoper, iav akan terbuka dan ash akan di vacum menuju fa silo
+
+
+
+Jurnal:
+
+Minggu ini di chcb rasanya sungkan, banget, pertama masih awal bareng pak gilang, dia orangnya suka nantang dan suka mengkonfirmasi pemahaman dengan menyuruh menjelaskan ulang apa yang baru di pelajari, mencatat, penting banget, mengingat kapasitas ingatan terbatas ketika mendapat informasi banyak di satu waktu. kedua terbatas mau ikut ke lokasi pm, karena pm biasanya abis zuhur, dan istirahat siang pada di bengkel chcb, itu terpaut 100 an meter dari ruang harkonin. oke ndak papa, artinya suruh kerjakan hal lain, juga artinya diberi waktu buat belajar mandiri perihal chcb lewat materi.
+
+pagi ini di ajak ke ruang kontrol ash handling, bottom ash dan fly ash. bottom ash dari slaging atau jelaga yang jatuh ke ba hopper, biasanya karena tidak terbakar sempurna, ada juga material lain lapukan komponen di furnance boiler, setelah masuk ba hopper, akan di semprot air dari service water dan sirkulasi water menuju submerged scrapper conveyor (ssc), di ssc akan menuju chute, disana ada bypass ketika adda mal fungsi pada conveyot, kedua ada decider lagi dengan grid, yang lebih besar akan masuk grinder untuk di kecilkan dengan ukuran tertentu, baru masuk konveyor ke arah ba silo. kedua ba diperoleh dari economizer hopper, terdapat slide gate dan eco air lock, sistemnya bekerja menurut indikasi besar tekanan atfosfir blower, apabila 0,6-0,7 artinya ukuran standar untuk mengalirkan, bila dibawah 0,6 akan menutup gate, bila 0,630 atau lebih akan buka, dan ketika 0,7 artinya ash sudah clear, dan ash akandi alirkan menuju ba silo, terakhir ada dari fail di mill.
+
+sekarang fly ash, di tangkap di sah/pah hopper, tapi tidak di pakai, jadi hanya di di tangkap di electrostatic precipitator, punya 32 fa hopper, ada heater, vibrator dan ash intage valve (aiv) di setiap hopper. di bawah hoper ada saluran vacum menuju fa silo, ada breakage valve di tiap ujung saluran untuk menghindari tekanan vacum berlebihan.
+
+
+
+
+
+JUMAT, 02 AGUSTUS 2024
+
+- Belajar Coal Handling dan Ash Handling pada area Coal Handling Control Building (CHCB)
+
+- Belajar Presentasi P Wide : Sootblower Thermal Drain System
+
+- Belajar Hard Comunicator smart positioner valve
+
+
+
+
+
+
+
+MINGGU 6
+
+SENIN, 5 AGUSTUS 2024
+
+- Belajar ccp plant 
+
+- Belajar silica analizer pada inlet dari condensor dan outlet dari ccb plant
+
+- pm penggantian motor dan lampu pada silica analizer hack series 5000
+
+
+
+fungsi dali silica analizer pada kondensor adalah untuk mengetahui konsentrasi kadar silika pada air, untuk menghindari pembentukan kerak pada saluran, sehingga menyebabkan penurunan efektifitas dan efisiensi pendinginan pada kondensor
+
+
+
+"terdapat udara yang membuat korosi, jadi di buang"
+
+
+
+
+
+SELASA, 6 AGUSTUS 2024
+
+- Corrective maintenance (CM) wtp : Pompa Well Water
+
+- Kalibrasi Conduct pada air proses di condensat polisher plant (cpp) 
+
+di wtp ada kabar kalau control untuk menghidupkan pompa well water tidak bisa, ternyata sudah bisa. sekilas dijelaskan kalau well water berisi air bersih dari sumber kelontong. lalu di pompa ke service watter. pada wtp terdapat serangkaian proses demineralisasi air. tujuannya untuk menghilangkan kadungan pada air yang bisa membuat korosi, kerak atau bahkan merusak komponen. dari well water air masuk ke kation, untuk menghilangkan ion positif, setelah itu masuk ke decarbonator untuk mengangkat carbon yang terlarut pada air. masuk ke resin anion, untuk menghilangkan ion negatif, terakhir akan masuk ke resin mixbed, di sini proses terakhir mendemineralisis untuk.
+
+
+
+
+
+RABU, 7 AGUSTUS 2024
+
+- PM area turbin: kalibrasi rutin(bulanan) ph analizer pada air proses
+
+- CM area turbin: ganti psu display water ph analyzer
+
+- Belajar vibrasi pada peralatan berputar menggunakan sensor vibrator
+
+- Belajar jenis sensor vibrasi dan cara kerjanya
+
+- Belajar pengetesan fungsi sensor vibrasi
+
+
+
+Pengukuran kondisi pembacaan sensor Vibrasi: 
+
+- jenis vibrasi (velocity, akselero, displacement), dimana setiap nilai pembacaan dari satu jenis ke jenis lain bisa di konversi
+
+- pembacaan velocity dan akselero melalui rambatan getaran, nantinya peak to peak gelombang akan di analisa untuk mendapatkan nilai hasil.
+
+- pembacaan displacement mengukur gerakan antara housing bearing dan rotor
+
+- jenis sensor vibrasi: 1.) eddy current peak up (proksimiti probe), 2.) dynamo electric type velocity pickup, 3.) piezoelectric type acelerometer pickup (lifetime tinggi)
+
+- diagnosing pada trouble : 1.) rubbing (bisa membuat luka pada busing), 2.) mussalignmenet (unbalancet), 3. 
+
+- setiap sensor memiliki ukuran beda, misal jarak 1 mm akan bernilai 7,7v, (gab dc) , toleransi 5% (deviasi)
+
+
+
+
+
+KAMIS, 8 AGUSTUS 2024
+
+- Rapat Pagi : turbin bakal di bantu dari teman ..., ada corective di kebocoran ...., pegajuan baterai ht normal artinya waktu nya lama .
+
+- Pengetesan Karakteristik pada goverment valve pada main stop valve dan control valve turbin. (ini berfungsi sebagai panduan untuk menyamakan nilai semula setelah di maintenance pada overhaul)
+
+- belajar tentang jumper bypass steam, mekanisme wiring, mekanisme kerja.
+
+- belajar tentang sisi bagian perencanaan penanganan unit jangka menengah, yakni menambah komposisi biomasa pada cofiring sampai 40%, serta tantangan di baliknya
+
+- belajar mekanisme valve hydraulic bertingkat, dari aktuator kecil, menengah dan valve
+
+
+
+- ada 3 jenis outage, setiap 4 tahun , tingkat rendah, menengah, dan serius
+
+- generator di oh tidak di lepas, ini karenasangat beresiko, dan kalau sampai kumparan gores, biaya perbaikannya besar. generapr plnnp jangkar di stator( yang menghasilkan listirk, danstator menghasilkan medan magnet. putaran generator counter clock wise
+
+
+
+
+
+JUMAT, 9 AGUSTUS 2024
+
+- Belajar mekanisme jumpering panel valve spray pada hp dan lp bypass valve: bertujuan untuk menonaktifkan sistem otomatis sehingga hanya ada sistem manual pada bagian ini
+
+- OH turbin: ambil data karakteristik hp bypass dan lp bypass valve, (ada 7 valve (1 hp, 2 lp, 4 spray), tipikal elektrik/ motor, juga ada skema fast close memakai hydraulic
+
+- PMarea wtp: cek differential pressure transmiter switch  pada filter air demin mixbed. dptc ini punya 2 input (sisi masuk dan keluar filter), sebelumnya melewati manipol(punya 2 input dan 2 output, ada 2 tuas isolator, 2 tuas equalizer, 1 tuas trip)
+
+- Crimping kabel lan : kabel koneksi dari lokal panel ke ccs, jadi dari ccs sampai ke aktuaator urutannya ccs, ke firewall, server, switch hub, controler, modul, ke panel, ke aktuator/sensor
+
+
+
+
+
+SENIN, 12 AGUSTUS 2024
+
+- Belajar cara mengambil data flow meter ultrasonic dan mekanik pada pipa pembuangan air limbah
+
+- PM wtp : mengecek diff press ind transmit pada filter mixbed, wiring spare untuk sensor indicator feedback valve mill, menilik oh boiler
+
+
+
+
+
+SELASA, 13 AGUSTUS 2024
+
+- Belajar WTP bersama Pak Aji: pembuatan air demin, mekanisme konversi energi, mekanisme logika mesin dan listrik
+
+- Mengambil data flow meter ultrasonic dan mekanik pada pipa air limbah
+
+- PM boiler: Menilik OH Turbin, Panel valve suplay steam Soot Blower, termometer boiler, menilik saluran batu bara dan tillting,
+
+
+
+RABU, 14 AGUSTUS 2024
+
+- Belajar Mandiri segitiga daya listrik 3 fasa dan mekanisme beban pelanggan resistif, konduktif dan kapasitif
+
+- Koordinasi pengambilan data perbandingan flow meter ultrasonic dan mekanik untuk bahan jurnal 
+
+
+
+
+
+KAMIS, 15 AGUSTUS 2024
+
+- Belajar (Resistance Temperature Detector) Rtd pada hph 
+
+- Belajar studi kasus unit 2 trip akibat bocor line ccw sebagai he coller bearing turbin
+
+- Belajar mandiri tentang pengaruh serangan emp (electromagnetic pulse) terhadap  perangkat elektronik
+
+- PM cb actuator pada BOILER FEGT MONITORING
+
+- Menilik Flame Monitor
+
+- PM BWC
+
+
+
+
+
+JUMAT, 16 AGUSTUS 2024
+
+- Lomba Agustusan: tim ber-5 memasukan sedotan ke dalam botol
+
+- KSF: Sistem Close Breake pada Ship Unloader CHCB
+
+
+
+
+
+SENIN, 19 AGUSTUS 2024
+
+- rapat pagi
+
+- chcb ssc: membenahi piringan untuk chain breakage proximity sensor pada ssc
+
+- memasang seal tape pada presure gauge, mengisi Gliserin-air sebagai peredam getaran
+
+- melihat ssc, diverter gate untuk ke conveyor menuju ba silo dan ke arah crusher combust, motor penggerak menggunakan fluid kopling, di bawah chute ada sensor radiasi (nuklir)
+
+
+
+
+
+SELASA 20 AGUSTUS 2024
+
+- belajar mandiri: manajemen proyek
+
+- pm chcb: repair level sensor kapasitif(esp hopper), review bagian dan cara kerja esp(lempeng di ketuk, di tangkap esp hoper, di hoper ada heater dan fibrator, ada juga heater minimum switch dan level kapasitif sensor, di bawah ada intage valve, di bawah ada line, di ujung line ada vacum breakage, terdapat selenoid dan spring, untuk mekanisme bekerja sebagai sistem pembersihan abu di line, di sedot bergantian setiap row, dan di setiap batang line ada valve. abu yang di sedot menuju primary separator lalu secondary separator. sehingga udara pengangkut fly ash yang di buang ke lingkungan bersih.)
+
+- pm ruang chcb: finish wo pasang press gauge, belajar logic conveyor, belajar mekanisme proteksi konveyor, belajar sharing dari pak gilang
+
+
+
+RABU, 21 AGUSTUS 2024
+
+- rapat pagi rutin
+
+- kalibrasi pada panel saluran economizer
+
+- kalibrasi sensor kapasitif level indikator untuk esp hopper
+
+- kalibrasi termometer switch dan pressure switch ssc
+
+
+
+- kalibrasi termometer switch dan pressure switch ssc: 
+
+- kalibrasi sensor kapasitif : 8 pico
+
+- pesan pak zen: bijak foto dokumentasi, tanya" tahu sikon, nyicil laporan, 
+
+
+
+
+
+KAMIS, 22 AGUSTUS 2024
+
+- kalibrasi water level switch pada sebelah settling tank
+
+- belajar tes solenoid 2/3 
+
+
+
+
+
+JUMAT, 23 AGUSTUS 2024
+
+- belajar mandiri mekanisme valve steam pada turbin dan arus eksitasi pada rotor generator terhadap perubahan beban serta naik turunnya cos phi
+
+- menyimak presentasi rekan kp (pepes & royhan/ Polinema)
+
+/Presentasi bung Pepes & Royhan
+
+//Isi dan tampilan presentasi: Sistematis dan Proporsional
+
+//ketika menjelaskan perangkat/ instrumen meliputi:
+
+- gambaran teknis mekanisme
+
+- logic sistem kontrol
+
+- klasifikasi media pengukuran (transmitter/switch/ transducer)
+
+- input tegangan, keluaran tegangan
+
+- sistem kontrol
+
+- pengaturan di lokal
+
+- detail jenis/nilai fluida (steam/oil: temperatur/pressure/flow)
+
+- durasi operasi
+
+//temuan trouble : (permit work>> work officer)?
+
+- work request :biasa (nunggu longgar), urgent (handle on the same week), emergency(handle on the same day)
+
+//Pak Wide: 
+
+- Presentasi pakai storytelling ( informatif dan menarik), 
+
+- pahami topik mendalam dan komprehensif, 
+
+- sampaikan secara efektif dan efisien, 
+
+- visual > tulisan, 
+
+- penyampaian untuk umum (bisa di pahami orang awam paham), 
+
+- jenis karya tulis deskriptif pakai penyampaian deduktif (dg susunan sistematis), 
+
+- filosofi instrumen (proteksi), 
+
+- 5w + 1h, 
+
+- ketika menjelaskan : ini apa?, untuk apa?, bagaimana cara kerjanya?,
+
+//Pak Abdullah: siklus pltu
+
+- siklus uap dan air
+
+- siklus udara dan gas buang
+
+- smaterial handling
+
+//Pak Gilang: saran
+
+- tanya hal penting(berbobot) ketika pkl
+
+- catat
+
+- pelajari mandiri (sebelum pkl dan setelah)
+
+//Mba Dila: Kerangka susunan presentasi:
+
+- Penjelasan aktifitas selama magang
+
+- overview proses di pltu
+
+- spesifik ke topik
+
+
+
+
+
+SENIN, 26 AGUSTUS 2024
+
+- Kalibrasi isolator signal TSI vibrator peroximity probe menuju dcs
+
+- Belajar fundamental sensor vibrator pada turbin (shaft dan differential expansion)
+
+
+
+- gland steam pada generator: untuk mengunci uap agar tidak bocor ke sisi lain turbin
+
+- TSI (Turbine Supervisory Instrumentation) monitor, 
+
+
+
+
+
+SELASA, 27 AGUSTUS 2024
+
+- Belajar mandiri teori TSI(turbine supervisory instrumentation)
+
+
+
+
+
+RABU, 28 AGUSTUS 2024
+
+- Kalibrasi isolator lp differential expantion (inject input avator (dc), sesuaikan nilai output (mA))
+
+- Belajar kalibrasi pembacaan sensor vibrasi bearing hp turbine pada Human Machine Interface (HMI)
+
+
+
+
+
+KAMIS, 29 AGUSTUS 2024
+
+- Kalibrasi isolator lp differential expantion (inject input avator (dc), sesuaikan nilai output (mA))
+
+- Belajar kalibrasi pembacaan sensor vibrasi bearing hp turbine pada Human Machine Interface (HMI)
+
+- Belajar overview implementasi ai pada analisa masalah dan pengambilan keputusan di pltu
+
+
+
+kata pak abdullah: suplay kontroler untuk drop" kontroler ada 3, primarry, sec, dan backup diesel generator.  suplay primary bersumber dari ups, ups di suplai dari uat dan sst. untuk suplay sec dari mcc, mcc bersumber dari sst, selain sebagai backup, mcc bekerja menyuplai peralatan kritis seperti pompa dan lain".
+
+
+
+
+
+JUMAT, 30 AGUSTUS 2024
+
+- Asesmen data sinkawa (avator, sinkawa, kontroler ovation)
+
+
+
+
+
+SENIN, 2 SEPTEMBER 2024
+
+Motivasi sukses itu mending orang tua dan sanak sodara ketimbang seseorang yang belum tentu berjodoh dengan mu. 
+
+tanggung jawab ke diri sendiri, artinya jalani amanah sebaik mungkin.
+
+- Mengurus perpanjangan kartu akses pltu di sdm, sikam, dan k3
+
+
+
+
+
+SELASA, 3 SEPTEMBER 2024
+
+- penambahan limit switch sebagai feedback dan tombol kontrol manual pada inerting valve mill unit 1
+
+- belajar mekanisme limit switch
+
+- belajar letak instrumen kontrol pada turbin
+
+- belajar mekanisme permit runing/ trip, piranti kontrol dan mekanisme start awal pada  cwp, acwp.
+
+
+
+RABU, 4 SEPTEMBER 2024
+
+- instal kabel untuk penambahan differensial pressure pada coal feeder sebagai indikasi pluging
+
+- belajar alur dan mekanisme udara boiler
+
+- belajar mekanisme saluran ignitor, oil gun dan coal ketika fairing hingga normal operasi
+
+- belajar ccw, ccw he, oil lube he, serta mekanisme kegunaan
+
+- belajar mekanisme filling line sebelum firing start up unit 
+
+
+
+KAMIS, 5 SEPTEMBER 2024
+
+- Belajar mandiri materi proses pltu
+
+- Mengerjakan Laporan KP
+
+
+
+JUMAT, 6 SEPTEMBER 2025
+
+- Install limit switch pada inerting valve mill unit 1 
+
+- Install solenoid untuk manual kontrol inerting valve mill unit 1 
+
+
+
+Insight:
+
+- Belajar mekanisme solenoid 3 way dual control: mekanisme nya bisa di kontrol manual dengan di putar, terdapat 3 kabel, di dalam ada coil, yang bekerja sesuai dengan input arus, membuka dan menutup katup.
+
+- Belajar pemasangan solenoid dan limit switch di lokal
+
+- Belajar alur kerja atay mekanisme kerja ketika operasi
+
+
+
+
+
+SENIN, 9 SEPTEMBER 2024
+
+- Belajar mandiri manajemen proyek, belajar dasar ai
+
+
+
+SELASA, 10 SEPTEMBER 2024
+
+- Looping test pada Temperature Indicator Switch heater blower esp.
+
+
+
+pengujian loop atau hubungan antara field devices dengan controller atau penerima sinyal lainnya dengan cara melakukan pengiriman sinyal dari field devices ke controller atau sebaliknya, agar sinyal yang dikirim oleh field devices bisa diterima oleh peberima sinyal seperti controller sesuai dengan rencana.
+
+
+
+
+
+RABU, 11 SEPTEMBER 2024
+
+- Mengganti penghubung blower primary separator fly ash
+
+- Sharing dengan Mba Dila : di up 1 2 sedang proses pembangunan plts 800 kwp, yang mana digunakan untuk operasi beberapa bagian unit, seperti wtp dan penerangan. ada hambatan di kontraktor yang progresnya lambat dan tidak tepat waktu, juga banyak revisi. selain plts, proyek dengan kontraktor yang sama turut mengerjakan wwtp, waste water treatment plan, tentu belum jadi. satu lagi, di kanal outlet water colling, terpasang pltmh, tapi mangkrak, entah kenapa.
+
+
+
+
+
+KAMIS, 12 SEPTEMBER 2024
+
+- Izin ke puskesmas periksa gigi
+
+- belajar mandiri materi chcb davn ash handling
+
+- Karakteristik control valve paska ereasemble overhaul
+
+
+
+JUMAT, 13 SEPTEMBER 2024
+
+- Izin periksa gigi ke puskesmas
+
+- belajar mandiri materi chcb davn ash handling
+
+
+
+
+
+Senin, 16 September 2024
+
+hari besar maulid nabi
+
+perjalanan dari malang ke situbondo lagi
+
+
+
+
+
+Selasa, 17 September 2024
+
+- corective maintenance silica analyzer pada cpp, terdapat kebocoran pipa.
+
+- diskusi konversi matakuliah dengan learning objektive di pltu yang sesuai
+
+- belajar fundamental instrumen kontrol pada pltu
+
+
+
+
+
+Rabu, 18 sep 2024
+
+- belajar teori prosedur proses fairing
+
+- melihat proses fairing boiler pada start up pltu unit 1 up paiton
+
+- belajar troubel shooting pada proses startup unit pltu
+
+
+
+
+
+Proses Fairing:
+
+1. Start CWP (condensor water pump, berfungsi untuk mendinginkan kondesor, sebelum nyala ada permit untuk memenuhi head tank pompa, digunakanlah acwp ke cwp)
+
+2. filling hot well (air demin untuk mengisi hot well pada kondensor, berasal  dari cst yang di pompa menggunakan ctp menuju kondensor)
+
+3. start cep
+
+4. sirkulasi kondensor to deaerator
+
+5. start bfp
+
+6. filling boiler
+
+7. start bcwp
+
+8. sirkulasi boiler
+
+9. start aop turbine
+
+10. start gse fan a dan b
+
+11. inservice gssr
+
+12. hp turbine  warming
+
+13. vacum up
+
+14. start sah a dan b
+
+15. start pah a dan b
+
+16. start id fan 2 a
+
+17. start fd fan 2a
+
+18. start id fan 2b
+
+19. start fd fan 2b
+
+20. purging boiler
+
+21. start mbfop b
+
+22. start ignitor de
+
+23. start ignitor cd
+
+24. start oil gun de
+
+25. start oil gun cd
+
+26. turbin reset
+
+27. cv warming
+
+28. turbin rolling
+
+29. rub check
+
+30. speed up 800 rpm, heat soak 1
+
+31. start cep
+
+32. speed up 3000 rpm , heat soak 2
+
+33. start pa fan
+
+34. start mill dan feeder 2d
+
+35. start bfp 2a
+
+36. generator eksitasi cb 41E on
+
+37. sinkron ke jaring-jaring
+
+38. transfer fa to pa 20mw
+
+39. transfer sst ke uat 100 mw
+
+40. oil gun cd retract
+
+41. ignitor cd stip
+
+42. oil gun de retract
+
+43. ignitor de stop
+
+44. cut off minyak
+
+45. comercial
+
