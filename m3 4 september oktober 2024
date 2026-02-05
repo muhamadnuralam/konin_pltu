@@ -1,0 +1,274 @@
+KAMIS, 19 SEPTEMBER 2024
+- Mengamati proses fairing start up unit 1 pasca overhaul
+
+
+JUMAT, 20 SEPTEMBER 2024
+- Belajar PLC schneider di WTP menggunakan software unity: Get program from plc, forced & unforced digital input,  hadling alarm (silent, acknowledge, reset), tracking wiring, tracking line logic pada jalur untuk trouble shoting
+
+
+SENIN, 23 SEPTEMBER 2024
+- Penangan mill A unit 1 trip dengan indikasi over temperature pada gearbox
+- Belajar literatur laporan terdahulu untuk menentukan topik laporan
+
+water contain masih tinggi, turbin drum
+training flame scanner siang nanti,
+
+
+SELASA, 24 SEPTEMBER 2024
+- PM Bagian sensor dan panel Pa Fan, Fd Fan, dan Id Fan
+- Belajar sensor kontrol dan monitor pada motor dan fan, seperti heat sensor pada bearing, differensial pressure switch transmitter
+- Belajar instrumen kontrol dan proteksi pada bagian CWP, ACWP dan BFP, mulai dari winding temperatur hingga vibrasi
+
+
+RABU, 25 SEPTEMBER 2024
+- Corective maintenance pada sensor rtd pada motor mill yang bad signal, perbaikan pada panel tepatnya di terminasi, detailnya besuk coba kami tanyakan
+- mencari topik laporan
+
+
+KAMIS, 26 SEPTEMBER 2024
+- Belajar pengaturan level pada steam drum : parameter flow feed water, level drum, flow mainsteam. output demand pada kontrol master bfp. pengaturan pada fluid kopling, dengan mengatur tekanan fluida pada kopling, semakin tinggi tekanan fluid kopling maka kecepatan pompa semakin mendekati bahkan melebihi kecepatan motor (semakin cepat), semakin turun tekanan fluid kopling maka kecepatan pompa akan turun.
+
+>>Belajar :
+- MMWC (mili meter of water columb): satuan tekanan yang digunakan dalam dinamika fluida
+- BTU (British Thermal Unit) adalah satuan panas yang umum digunakan di Amerika Serikat dan Inggris untuk mengukur energi termal.
+- air fuel ratio pada motor sebagai analogi pembakaran di boiler pltu
+- pressure temperature tabel
+- jenis turbin sub critical dan super critical
+- teori thermosyphon and forced pada bcwp
+- 
+
+
+
+JUMAT, 27 SEPTEMBER 2024
+Insight
+Pak Nuri:
+- Proteksi vacum breaker Condensor, ketika vakum menurun dan presure naik
+- proteksi diafragma/ membrane pada saluran ip outlet ke inlet lp turbine
+- inlander power: suplai listrik untuk pemakaian unit sendiri
+- condensor, waterbox adalah tempat air laut untuk menukar panas di pipa-pipa
+
+Pak Abdullah:
+- nilai vakum kondensor, wide dan narow, wide: titik 0 berdasarkan tekanan atmosfer, narow: titik 0 berdasarkan nilai absolut, presure dan fakum
+- sistem pengaturan cv untuk gland seal 
+- pengukuran flow rate coal pada mill
+- kontrol frekuensi listrik generator dan beban dengan gov free dan set poin agv
+
+Pesentasi akhir wahyu-anin-berlian(polinema kediri):
+1. intro, baiknya menggunakan cerita atau pantun dll
+2.  proses produksi listrik, langsung membahas siklus
+3. siklus air dan uap, bisa di tambah pembagian area(air proses, air service dan pendinginan)
+4. siklus(proses) bahan bakar :  coal dan oil, saran bisa di bagi proses nya, 1). coal handling (unloading, penataan, loading, direct unloading), 2.) ash handling(ba dan fa)
+5. work planning and control: bisa ditambah ilustrasikan mekanisme teknisnya
+6. Kegiatan yang dilakuan selama pkl : pm, cm, bisa ditambah masa oh, yang mana banyak kalibrasi"
+7. siklus air pendinginan
+8. pembahasan topik : 
+
+1.) cwp, anin 
+a. overview,
+b. prinsip kerja cwp
+d. instrumen pada cwp : pressure gauge, temperature, vibrator, rtd, flow switch, motor air temperature ...
+e. sistem proteksi
+f. pengecakan cwp ketika operasi
+
+2.)acwp, 
+a. prinsip kerja
+b. spesifikasi
+c. instrumen acwp : 
+d. sistem proteksi acwp: winding temp, discharge valve prot,  (reverse prot tidak ada, hanya di cwp)
+
+3.)bfp
+a. definisi
+b. bagian" bfp : impeller pump, variable speed kopling, motor listrik, local panel control, 
+c. bagian pendukung bfp 
+d. prinsip kerja: indikator(parameter)
+e. instrumentasi pada bfp: heat sensor, vibration sensor, speed sensor, pressure transmitter/switch, level switch, bimetal termometer, press gauge, 
+f. sistem proteksi boiler feed pump
+g. mode operasi bfp
+h. maintenance bfp
+
+pak zen: langkah langkah pemeliharaan, temperature ruangan, gauge, gland sealing, 
+
+pak abdullah: pakai air karena ketersediaan melimpah, menyinggung pltn yang kendala di konflik politik kekuasaan.
+
+
+SENIN, 30 SEPTEMBER 2024
+- Belajar Dasar Data Science (free course dicoding)
+- Peringatan maulid nabi, mushola pltu, "Ngaji integrigas" (bersama Habib Abdul Qodir Bin Ba Abud) : 3 cobaan pernikahan, 6 penyebab sumpek, 7 solusi sumpek, 2 cara mengusir setan
+
+
+SELASA, 1 OKTOBER 2024
+- Belajar Machine learning pada pltu: analisis parameter paling berpengaruh terhadap naiknya suhu motor mill unit pltu 
+
+
+RABU, 2 OKTOBER 2024
+- Corrective Maintenance area ash handling: flashing pipa saluran udara differensial pressure transmitter switch pada filter vacum udara separator ash (menyebabkan alarm filter udara kotor dan vacum trip)
+- 
+
+
+KAMIS, 3 OKTOBER 2024
+- Belajar PID : https://www.spiraxsarco.com/learn-about-steam/basic-control-theory/basic-control-theory 
+
+apabila di pikir syukur itu tidak usah nunggu apapa, cukup sadari semua nikmat yang begitu luar biasa saat ini, 
+
+
+JUMAT, 4 OKTOBER 2024
+- Belajar instrumen kontrol pada coal feeder: seal air, differential pressure(sebagai chute plug validation),  untuk chute plug sensor sendiri berjenis kapasitif
+- Menyelesaikan kursus gratis pengembangan diri di platform dicoding
+- Mencicil mengerjakan laporan sesuai pedoman
+- Berdiskusi dengan pembimbing terkait topik  magang: analisis pengaturan suhu main steam melalui spray water pada pt pln np up paiton 12 (parameter terkait, sistem kontrol pid, wiring, logic, header, material penyusun, instrumen penyusun)
+
+
+SENIN, 7 OKTOBER 2024
+list pertanyaan:
+- sedg? damper? mov? facp?  motor drive? jenis beban dan pengaruh terhadap cosphi?
+- PM rutin lingkup indikator tekanan, aliran, suhu pompa dan valve di area kondensor
+- PM instrumen indikator pada iflter culvert cwp
+- PM Kalibrasi sensor conduct pada anion dan kation dengan laruatan kalibrasi (larutan buffer)
+- Melihat penggantian resin pada anion train A
+- pemasangan casing ultrasonic indicator (bongkar instalasi sementara, las dudukan, install ulang peralatan.
+
+
+SELASA, 8 OKTOBER 2024
+- Mengisi form pendaftaran dan pendataan KKN : kategori konversi PMM2
+- CM kebocoran oli pada sensor temperatur kopling BFP 1A
+- CM differetial pressirue indikator transmitter gauge pada filter lube oil.
+- PM instrumen sensor dan aktuator pada valve" area lph hph dan kondensor.
+- Pemasangan probe sensor ultrasonic flow meter pada air limbah wtp
+
+
+RABU, 9 OKTOBER 2024
+- Mengamati proses koordinasi dengan vendor tentang rencana pengetesan smoke detektor
+- Knowledge Sharing Forum (KSF oleh Pak Tomo: Mengenal Pembangkit Listrik Tenaga Nuklir : Teknologi dan masa depannya
+1. dasar energi nuklir : 
+pengertian: atom, nuklir,
+reaksi nuklir: reaksi fisi (berantai memecah), reaksi fusi(berantai menyatu), 
+sifat alami bahan bakar nuklir : di manfaatkan dan di biarkan
+pemanfaatan reaksi nuklir : 
+perbandingan energi konvensional dan energi nuklir
+2. komponen dan sistem reaktor nuklir
+reaktor nuklir: perangkat pengendali reaksi berantai nuklir secara aman dan terkendali
+komponen utama reaktor: bahan bakar nuklir, moderator, reflektor, pendingin, batang kendali, sumber neutron (lokasi semua ada di teras reactor(core))
+prinsip kerja reaktor: steam generator
+pengembangan reaktor nuklir: gen 1 - 4
+jenis - jenis reaktor : berdasarkan fungsi : riset dan daya, berdasarkan pendinginnya : water colled (pwr, bwr, phwr), gas colled,  ; berdasarkan moderatornya; berdasarkan range daya
+3. sistem kendali dan proteksi dalam reaktor:
+- sistem instrumentasi dan kenali(sik) : komponen sik 
+- tipe sik : 
+- sistem kendali reactor: reactor leading, pengaturan daya, 
+
+tanya jawab:
+- batang pengendali tidak ada masa habis pakai
+- bahan bakar maksimal 50% kinerja sudah di ganti
+- pekerja memiliki prosedur kesehatan lebih ketat
+- di indonesia masih riset, yang rencana di bangun dan akan di kembangkan di kalimantan yaitu ikn
+
+
+KAMIS, 10 OKTOBER 2024
+- Belajar membaca wiring diagram instalasi PLC
+- Belajar Filosofi dan dan prinsip kerja wiring, instalasi, komunikasi data dan konversi data pada instrumen kontrol
+- Kuliah Proposal Skripsi : Menentukan Tema spesifik, mencari 10 jurnal terkait, software untuk alat bantu
+- komponen pada psu dan retrifier seperti mcb,
+- wiring existing di pertahankan dengan desain awal meski terdapat perubahan atau diganti perangkatnya, dengan cara mengakali  terminal atau mencari perangkat serupa
+- tujuannya untuk mempermudah operasi/ maintenance ketika pergantian teknisi atau juga mempelajari
+- cara membaca wiring: 
+1. perhatikan judul , untuk memahami lingkup/ ranah, 
+2. lonjakan arus terjadi ketika short circuit,  elcb, fuse, karakteristik 3 phase, 
+3. peran spare pada instalasi kabel: mempermudah maintenance, mengurangi waktu downtime, 
+4. besar tegangan menyesuaikan kebutuhan/ spesifikasi perangkat, 
+5. es : emergency  stop
+6. perangkat rectifier menjadi 1 area,  diluar trafo
+7. aktif power input, pasif power input. pasif instrumen berdaya dari modul io,  sedangkan aktif instrumen di suplai psu sendiri
+8. sinking output, input digital & analog, 
+9. pembacaan 4 - 20 ma, terbaca teg 11 - 8
+10. peran terminasi dalam instalasi,
+11. aktif power grounding (resistensi rendah)  berfungsi sebagai proteksi peralatan dari petir, short circuit  
+12. dari transmitter, ke channel dan address plc
+13.  perbandingan antara standar industri dan komersial 
+14. cara baca scalling nilai analog
+15. filosofi sebagai dasar analisa sebuah proses, sistem maupun peralatan
+16. tuntutan menyesuaikan tingkat pendidikan,
+17. prinsip dasar scalling nilai analog input pada controller: jumlah bit misal 12 bit, maka nilai pembacaan transmitter narus 4 -20 ma di konversi ke 12 bit binary dengan nilai desimal 0 - 4095, lalu di scalling dengan nilai instrumen misal level tangki 10 menter, maka nilai desimal 0 - 4095 di kali dengan nilai konstanta 240, hasil akhir akan diambil 2 angka awal nilai decimal
+
+
+
+JUMAT, 11 OKTOBER 2024
+- Mengerjakan laporan kerja praktik: membaca referensi dan mulai menyusun
+- Belajar machine learning di PLTU : linear regresi untuk menentukan nilai label dari beberapa parameter
+
+
+SENIN, 14 OKTOBER 2024
+Insight dari Pak Wide: 
+Singakatnya menjelaskan bahwa ada banyak perhitungan pada unit pembangkit, mulai dari udara, bahan bakar dan banyak lagi, tujuannya sesuai kebutuhan, yang intinya anatara efektifitas dan/atau efisiensi. 
+Pesan untuk kami, bahwa di dunia kerja khususnya di sini itu terus belajar, banyak hal yang belum diketahui, apalagi seiring berjalannya waktu ilmu pengetahuan terus mengalami pengembangan. selain itu ialah pentingnya adaptasi dan teamwork bak bagian tubuh manusia, dibutuhkan saling support, apalagi bila satu bagian mengalami kendala, di cari solusi bersama.
+
+SELASA, 15 OKTOBER 2024
+- mengerjakan laporan
+
+RABU, 16 OKTOBER 2024
+Konsul desuperheater (Pak Hardy):
+- desuperheater dibagi menjadi 2 section
+- sistem kendali menggunakan konfigurasi casecade : dua atau lebih loop pengaturan yang saling berkesinambungan., 
+- parameter suhu nilai tx dari discarge spray desuperheater di ukur oleh 2 termokopel dan diambil nilai rata" nya
+- section a di andingkan pv - sp sebagai eror, ada pid, hasilnya,  
+
+kombinasi konfigurasi feed forward, 
+selain parameter temperatur, juga mengambil parameter flow, parameter bahan bakar, 
+
+- tegas terhadap realistis pengerjaan 
+
+KAMIS 17 OKTOBER 2024
+Pak Abdullah:
+- spray dsh itu loses,
+- ada naiknya moisture ke atas pembakaran di area sh rh, disebabkan turunnya nilai kalori, menyebabkan panas turun, flow di naikan untuk mengejar nilai panas, tapi pembakaran di atas dan steam terlalu panas, alhasil kendali terakhir ada di dsh
+
+JUMAT 18 OKTOBER 2024
+Pak Abdullah: menjelaskan logic tepatnya cara kerja derivatif yaitu menambahkan nilai dari parameter dengan melakukan perubahannilai per satuan waktu
+
+SENIN 21 OKTOBER 2024
+- PM Rutin kalibrasi cation conductivity pada sample room 
+- Mengerjakan Laporan : ganti topik dari desuperheater ke cv gland sealing water cep
+https://eprints.uad.ac.id/13585/
+
+
+SELASA 22 OKTOBER 2024
+- menegerjakan laporan kp
+
+RABU 23 OKTOBER 2024
+- menegerjakan laporan kp
+
+KAMIS 24 OKTOBER 2024
+- Menjadi audience Presentasi KSP (Mba Dilla) : mengenal peran upp1 dalam pemasangan plts,
+- Kerjakan Laporan KP
+- mengenal unit proyek upp 1
+struktur organisasi, 
+- grid tie inverter
+- 
+
+JUMAT, 25 OKTOBER 2024
+- mengerjakan Laporan KP
+
+
+
+SENIN, 28 OKTOBER 2024
+- Kerjakan Laporan KP
+- Takziyah malang ayah pak zainal (pembimbing)
+
+
+SELASA, 29 OKTOBER 2024
+- mengerjakan laporan kp
+
+
+
+RABU, 30 OKTOBER 2024
+- mengerjakan laporan kp
+- minta diagram logic cv gland seal cep ke Pak Tomo (pembimbing)
+- konsultasi bersama pak abdullah, : penggantian kendali cv gland seal cep oh kemarin, karena pneumatic controller ketika di kalibrasi sudah tidak sesuai, juga pneumatic possitioner nya juga sudah rusak, kalau di ganti yang sama sudah tidak ada, dan pertimbangan sealain itu di sisi pemeliharaan yang lebih rumit dan menyita waktu dan tenaga, kalau transmitter dan smart possitioner kalibrasi mudah, kalau jelasin lebih ke cara kerja nya gimana, detail objek yang ada di sistem kendali cv pneumatic controller
+
+
+KAMIS, 31 OKTOBER 2024
+- mengerjakan laporan kerja praktik
+- presentasi kerja praktik berdasarkan topik masing-masing,
+- kecewa karena sangat sepi dan feedback sedikit, tapi hikmahnya ini memang kurang persiapan, dan ada baiknya ketika tidak banyak yang hadir dan melihat, 
+--- catatan dari pak Zainal : untuk validasi apakah nilai pembacaan itu aktual dengan melakukan kalibrasi atau mencari instrumen pembanding
+--- catatan dari pak Tomo : kalau presentasi itu bener-bener di pahami apa materinya, slide ppt itu di buat dengan sudut pandang orang awam supaya mudah di pahami, 
+- melanjutkan mengerjakan yang harus di selesaikan di paiton. 
